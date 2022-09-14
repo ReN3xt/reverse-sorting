@@ -15,8 +15,8 @@ public class Main {
 
             Logger logger = Logger.getLogger(Main.class.getName());
 
-            logger.log(Level.INFO, Arrays.toString(args));
-            logger.log(Level.INFO, Arrays.toString(list));
+            logger.log(Level.INFO, "Vecchia lista: {0} ", Arrays.toString(args));
+            logger.log(Level.INFO, "Nuova lista: {0} ", Arrays.toString(list));
         }
     }
 }
